@@ -1,0 +1,47 @@
+.formulario{
+    margin: 100px;
+}
+
+.formulario form{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.boxtexto h3{
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    margin: auto 0;
+    color: var(--texto);
+    line-height: 42px;
+    position: relative;
+} 
+
+.boxtexto h3::before,
+.boxtexto h3::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid var(--box-shadow);
+    border-top: 2px solid var(--box-shadow);
+    width: 1200px;
+    bottom: 0;
+    top: 0; 
+    left: 0;
+    right: 1;
+}
+
+.containerBotao{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;   
+}
+

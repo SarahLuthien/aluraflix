@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    margin-top: 4rem;
+    align-items: center;
+    flex-direction: column;
+    width: 782px;
+    height: 156px;
+    border: solid 2px var(--preto);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--branco);
+    line-height: 5px;
+}
+
+h2{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--branco);
+    line-height: 10px;
+}

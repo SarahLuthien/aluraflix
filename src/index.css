@@ -1,0 +1,43 @@
+:root{
+  --fonte-primaria:  "Roboto", sans-serif;
+  --fonte-secundaria: "Source Sans 3", sans-serif;
+  --cor-backend: #00C86F;
+  --cor-frontend: #6BD1FF;
+  --cor-mobile: #FFBA05;
+  --cor-background-color: #191919;
+  --cor-background-color-secundario: rgba(0, 18, 51, 0.56);
+  --cor-background-header-footer: rgba(0, 0, 0, 0.9);
+  --box-shadow: #2271D1B2;
+  --background-modal: rgba(3, 18, 47, 1);
+  --modal-border: rgba(107, 209, 255, 1);
+  --cor-hover: #2271D1;
+  --branco: #F5F5F5;
+  --texto: #FFFFFF;
+  --textoform: #A5A5A5;
+  --preto: rgba(0, 0, 0, 0.9);
+  --darkgrey: #262626;
+  --red: #E53935;
+
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte-primaria, --fonte-secundaria);
+  background-color: var(--cor-background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar{
+  background-color: var(--cor-background-header-footer);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-hover);
+  border-radius: 1em;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

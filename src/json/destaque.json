@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "titulo": "Como fazer SEO com React, NextJS e Deploy estático",
+        "descricao": "Eu to aqui pra nesse vídeo dizer que a gente vai aprender a começar uma app inspirada no desenho Pokémon com Nextjs e React, ver algumas dicas sobre performance e de quebra conhecer uma plataforma sensacional pra fazer deploy que é a Vercel.",
+        "capa": "https://i.postimg.cc/fTVPYLPr/Como-fazer-SEO-com-React.jpg",
+        "link": "https://www.youtube.com/watch?v=c8mVlakBESE",
+        "categoria": "Front-End",
+        "cor":"#6BD1FF"
+    },
+    {
+        "id": 2,
+        "titulo": "O que faz uma desenvolvedora front-end?",
+        "capa": "https://i.postimg.cc/Kvry14gh/O-que-faz-uma-desenvolvedora-front-end.jpg",
+        "descricao":"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!",
+        "link": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+        "categoria": "Front-End",
+        "cor":"#6BD1FF"
+    },
+    {
+        "id": 3,
+        "titulo": "Guia de carreira React JS",
+        "capa": "https://i.postimg.cc/4dfTbGCF/Guia-de-carreira-React-JS.jpg",
+        "descricao":"Terceiro episódio da temporada! Com o Guia de Carreira React, aprenda o que é e como funciona essa biblioteca JavaScript, desde os fundamentos com HTML, CSS e JS, até os próximos níveis mais profundos, como React Hooks, Lazy Loading e Rotas, TypeScript, Testes, Redux e muito mais!",
+        "link": "https://www.youtube.com/watch?v=0tS4lUq_7iA&list=PLh2Y_pKOa4UddwTMZhqQLj_1M_g-_fUXY&index=3",
+        "categoria": "Front-End",
+        "cor":"#6BD1FF"
+    },
+    {
+        "id": 4,
+        "titulo": "O que é e o que faz quem trabalha com UX?",
+        "capa": "https://i.postimg.cc/D0c6QVT5/O-que-e-o-que-faz-quem-trabalha-com-UX.jpg",
+        "descricao":"Chegou o episódio com a musa brasileira de UX, a Carla de Bona! Entenda a Experiência do Usuário e porque ela é importante para qualquer negócio, seja de produtos ou serviços. ",
+        "link": "https://www.youtube.com/watch?v=FJhMCi07T4A",
+        "categoria": "Front-End",
+        "cor":"#6BD1FF"
+        
+    },
+    {
+        "id": 5,
+        "titulo": "Guia de Carreira PHP",
+        "capa": "https://i.postimg.cc/mD9BgjsT/Guia-de-Carreira-PHP.jpg",
+        "descricao":"8º ep. da Temporada! Com o Guia de Carreira PHP, aprenda o que é e para que serve essa linguagem de programação e saiba o que ela faz desde o Back-End até o Front-End (com Desenvolvimento Web).",
+        "link": "https://www.youtube.com/watch?v=ETohL_o3SEI&list=PLh2Y_pKOa4UdxQxo_DwyqzyL-7wGnfIkL",
+        "categoria": "Back-End",
+        "cor":"#00C86F"
+    },
+    {
+        "id": 6,
+        "titulo": "O que é Node JS?",
+        "capa": "https://i.postimg.cc/0jfphprC/O-que-Node-JS.jpg",
+        "descricao":"Neste episódio do Hipsters.tube, Mario Souto e Paulo Silveira conversam sobre o Node .JS, eles explicam o que essa plataforma tão utilizada no universo Front-end faz, como ela surgiu e quais são suas aplicações.",
+        "link": "https://www.youtube.com/watch?v=GKR6uSvEj8w",
+        "categoria": "Back-End",
+        "cor":"#00C86F"
+    },
+    {
+        "id": 7,
+        "titulo": "Guia de Carreira JAVA",
+        "capa": "https://i.postimg.cc/qv57BQF5/Guia-de-Carreira-JAVA.jpg",
+        "descricao":"4º ep. da temporada! Com o Guia de Carreira Java, saiba o que é e para que serve o Java e descubra o passo a passo para sair do INICIANTE ao AVANÇADO. Desde os fundamentos e a Orientação a Objetos (POO), passando por testes, pacotes e coleções, até mergulhos mais profundos nessa linguagem de programação que você vai se interessar, como: Spring Framework e Spring Boot, velocidade de Compilação, JVM, Maven, Padrões de Projeto, SOLID, SQL, Kafka, Microsserviços, JUnit, Mock, Git, GitHub e muito mais!",
+        "link": "https://www.youtube.com/watch?v=TUBqH9zVs3M&list=PLh2Y_pKOa4UfhS9WiHYWqX5vl95W65WXo",
+        "categoria": "Back-End",
+        "cor":"#00C86F"
+    },
+    {
+        "id": 8,
+        "titulo": "Desenvolvimento Android",
+        "capa": "https://i.postimg.cc/Yqc9WnGP/Desenvolvimento-Android.jpg",
+        "descricao":"Um episódio focado no desenvolvimento de aplicações Android. Neste bate-papo, Paulo Silveira e Felipe Torres conversam sobre os primeiros passos para começar a desenvolver, quais as principais ferramentas do desenvolvimento mobile, como colocar sua aplicação no ar e mais! ",
+        "link": "https://www.youtube.com/watch?v=fWscDFHKgw8",
+         "categoria": "Mobile",
+         "cor":"#FFBA05"
+    },
+    {
+        "id": 9,
+        "titulo": "Desmistificando Mobile- Por onde eu começo?",
+        "capa": "https://i.postimg.cc/vBS9WrFm/Desmistificando-Mobile-Por-onde-eu-come-o.jpg",
+        "descricao":"A Websérie “Desmistificando o mobile” vêm aí para simplificar com exemplos práticos vários assuntos envolvendo o mundo dos aplicativos de celular e neste primeiro episódio vamos partir, literalmente, do começo, por onde começar a estudar sobre o mundo dos apps? Os instrutores da escola de mobile da Alura nos ajudam com essa tarefa.",
+        "link": "https://www.youtube.com/watch?v=2z6f8VN_Pro",
+         "categoria": "Mobile",
+         "cor":"#FFBA05"
+    },
+    {
+        
+        "id": 10,
+        "titulo": "Guia de Carreira: Android",
+        "capa": "https://i.postimg.cc/BQssTXsT/Guia-de-Carreira-Android.jpg",
+        "descricao":"Mergulhe na área de desenvolvimento para mobile e explore o mundo do Android e Kotlin com Tech Guida da Alura.",
+        "link": "https://www.youtube.com/watch?v=Jt6cRnki-IE",
+        "categoria": "Mobile",
+        "cor":"#FFBA05"
+    }
+]

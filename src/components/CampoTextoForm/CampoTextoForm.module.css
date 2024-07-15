@@ -1,0 +1,30 @@
+.container{
+    margin: 24px 0;
+}
+
+.container label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: var( --fonte-secundaria);
+    color: var(--texto);
+    font-weight: 500;
+}
+
+.container input{
+    color: var( --textoform);
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    margin: 0 auto;
+    width: 573px;
+    height: 62px;
+    border-radius: 10px;
+    border: solid 3px var(--darkgrey);
+    background-color: var(--cor-background-color);
+    box-sizing: border-box;
+}
+
+.container ::placeholder{
+    color: var( --textoform);
+    font-size: 18px;
+}

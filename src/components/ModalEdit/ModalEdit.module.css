@@ -1,0 +1,120 @@
+.overley {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: var(--background-modal);
+    padding: 60px;
+    margin: 400px;
+    border: 5px solid var(--modal-border);
+    border-radius: 15px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 120%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.modal h1 {
+    font-size: 3.75rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0;
+    color: var(--modal-border);
+}
+
+.container h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+    margin: 0;
+    padding-bottom: 60px;
+    color: var( --box-shadow);
+}
+
+.botoes {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.iconeFechar {
+    color: var(--branco);
+    font-size: 45px;
+    position: absolute;
+    right: 0%;
+    top: 1%;
+    left: 94%;
+    bottom: 95%;
+
+}
+
+@media (max-width: 1023px) {
+    .modal {
+        width: auto;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .iconeFechar {
+        top: 2%;
+        left: 90%;
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .modal {
+        width: auto;
+        margin-left: 27px;
+        margin-right: 27px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+
+    }
+
+    .modal h1 {
+        font-size: 2rem;
+    }
+
+    .iconeFechar {
+        top: 2%;
+        left: 89%;
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .iconeFechar {
+        top: 1%;
+        left: 85%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .botoes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

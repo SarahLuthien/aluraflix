@@ -1,0 +1,29 @@
+.categorias{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 2rem;
+    width: 20rem;
+    font-family: var( --fonte-primaria);
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 32px;
+    border-radius: 15px;
+    margin-left: 2.5rem;
+}
+
+.cardContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}

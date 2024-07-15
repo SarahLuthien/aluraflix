@@ -1,0 +1,55 @@
+.container {
+    margin-top: 2rem;
+    width: 432px;
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px; 
+    border: 2px solid;   
+}
+
+.capa {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90px;
+    cursor: pointer;
+    border: 2px solid; 
+} 
+
+h4{
+    font-family: var(--fonte-primaria);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 4px;
+}
+
+.box{
+    display: flex;
+    line-height: 5px;
+    color: var(--branco);
+    align-items: center;
+    gap: 10rem;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 16px;  
+}
+
+.icon{
+    width: 20px;
+    height: 25px;
+}

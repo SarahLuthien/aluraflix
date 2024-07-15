@@ -1,0 +1,25 @@
+.container{
+    margin: 24px 0;
+}
+
+.container label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: var( --fonte-secundaria);
+    color: var(--texto);
+    font-weight: 500;
+}
+
+
+.container select {
+    font-family: var( --fonte-secundaria);
+    background-color: var(--cor-background-color);
+    border: solid 3px var(--darkgrey);
+    border-radius: 10px;
+    color: var( --textoform);
+    width: 573px;
+    height: 62px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
