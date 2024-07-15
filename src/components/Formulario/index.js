@@ -30,7 +30,7 @@ function Formulario({ aoCadastrar, categorias }) {
   const aoSalvar = async (evento) => {
     evento.preventDefault()
     try {
-      const response = await fetch("https://json-server-vercel-git-main-sara-roberta-pires-s-projects.vercel.app/videos", {
+      await fetch("https://json-server-vercel-git-main-sara-roberta-pires-s-projects.vercel.app/videos", {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
@@ -38,11 +38,11 @@ function Formulario({ aoCadastrar, categorias }) {
           body: JSON.stringify(form),
       })
 
-      if (response.ok) {
+    
         alert('Vídeo cadastrado com sucesso!')
         limparFormulario()
         aoCadastrar(form)
-    }
+
 } catch (error) {
     console.error('Erro na requisição:', error)
     alert('Erro na submissão do cadastro!')
@@ -61,7 +61,7 @@ function Formulario({ aoCadastrar, categorias }) {
             label="Titulo"
             placeholder="Insira aqui o título"
             valor={form.titulo}
-            aoAlterado={(valor) => setForm({...setForm, titulo: valor })}
+            aoAlterado={(valor) => setForm((setForm) => ({...setForm, titulo: valor }))}
             tipo="text"
             minLength="3"
             maxLength=""
@@ -71,14 +71,14 @@ function Formulario({ aoCadastrar, categorias }) {
             label="Categoria"
             itens={categorias}
             valor={form.categoria}
-            aoAlterado={(valor) => setForm({...setForm, categoria: valor })}
+            aoAlterado={(valor) => setForm((setForm) => ({...setForm, categoria: valor }))}
             obrigatorio={true}
           />
           <CampoTextoForm
             label="Imagem"
             placeholder="Insira aqui a url da imagem"
             valor={form.capa}
-            aoAlterado={(valor) => setForm({...setForm, capa: valor })}
+            aoAlterado={(valor) => setForm((setForm) => ({...setForm, capa: valor }))}
             tipo="url"
             obrigatorio={true}
           />
@@ -87,14 +87,14 @@ function Formulario({ aoCadastrar, categorias }) {
             placeholder="Insira aqui a URL do vídeo"
             valor={form.link}
             tipo="url"
-            aoAlterado={(valor) => setForm({...setForm, link: valor })}
+            aoAlterado={(valor) => setForm((setForm) => ({...setForm, link: valor }))}
             obrigatorio={true}
           />
           <CampoTextoForm
             label="Descrição"
             placeholder="Sobre o que é esse vídeo?"
             valor={form.descricao}
-            aoAlterado={(valor) => setForm({...setForm, descricao: valor })}
+            aoAlterado={(valor) => setForm((setForm) => ({...setForm, descricao: valor }))}
             tipo="text"
             obrigatorio={true}
             minLength="5"

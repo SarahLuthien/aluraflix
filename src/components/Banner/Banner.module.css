@@ -39,7 +39,8 @@
     text-align: center;
     box-sizing: border-box;
     padding: 2.5rem;
-    width: 30%;
+    width: 40%;
+    white-space: nowrap;
     border-radius: 20px;
 }
 

@@ -11,4 +11,4 @@ function APP() {
     )
 }
 
-export default APP
+export default APP;
