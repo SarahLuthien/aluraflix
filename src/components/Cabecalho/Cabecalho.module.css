@@ -20,10 +20,6 @@
     width: 168px;
 }
 
-.home{
-    display: none;
-}
-
 @media screen and ( width < 764px) { 
 
     .logo {
@@ -36,14 +32,6 @@
        align-items: center;
     }
 
-    .containerhome{
-        display: flex;  
-    }
-
-    .home{
-        display: block;
-        width: 40px;
-    }
      
 }
 
