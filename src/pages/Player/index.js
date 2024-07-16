@@ -28,8 +28,6 @@ function Player() {
             <p className={styles.descricao}>{video.descricao}</p>
             <div className={styles.containerVideo} >
                 <iframe className={styles.video}
-                    width="1236" 
-                    height="695" 
                     src={video.link}
                     title={video.titulo}
                     frameborder="0"

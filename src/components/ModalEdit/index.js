@@ -13,9 +13,10 @@ function ModalEdit({ video, aoSalvar, aoFecharModal, categorias }) {
     const [descricao, setDescricao] = useState('')
     const [link, setLink] = useState('')
     const [categoria, setCategoria] = useState('')
-    
+  
 
     useEffect(() => {
+
         if (video) {
             setId(video.id)
             setTitulo(video.titulo)

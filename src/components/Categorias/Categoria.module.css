@@ -27,3 +27,26 @@ h3{
     gap: 2rem;
     
 }
+
+@media screen and ( width < 986px) { 
+
+    h3{
+        font-size: 28px;
+        width: 12rem;
+    }
+    
+    
+}
+
+
+
+@media screen and ( width < 690px) { 
+
+    h3{
+        font-size: 24px;
+        width: 10rem;
+    }
+    
+    
+}
+

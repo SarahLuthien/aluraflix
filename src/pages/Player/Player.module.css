@@ -2,5 +2,122 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem;
+    padding: 2rem;
+    margin: 0;
+}
+
+.titulo{
+    font-size: 2.4rem;
+    font-family: var(  --fonte-secundaria);
+    color: var(--texto);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.descricao{
+    font-size: 1.8rem;
+    color: var( --cor-hover);
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.containerVideo{
+    box-shadow: 2px 2px 10px 1px var(--cor-hover);
+}
+
+.video{
+    border: 2px solid var(--cor-hover);
+    width: 1336px;
+    height: 695px;
+}
+
+@media screen and (width < 1270px){
+
+    .video{
+        width: 1100px;
+    }
+}
+
+@media screen and (width < 1140px){
+
+    .titulo{
+        font-size: 2.2rem;
+    }
+
+    .descricao{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .video{
+        width: 1100px;
+    }
+}
+
+@media screen and (width < 1025px){
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .descricao{
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .video{
+        width: 900px;
+    }
+}
+
+@media screen and (width < 925px){
+
+    .titulo{
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+    }
+
+    .descricao{
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        line-height: 1.8rem;
+    }
+
+    .video{
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media screen and (width < 725px){
+
+    .titulo{
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+
+    .descricao{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1.8rem;
+    }
+
+
+    .video{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (width < 505px){
+
+    .titulo{
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+
+    .video{
+        width: 400px;
+        height: 250px;
+    }
 }

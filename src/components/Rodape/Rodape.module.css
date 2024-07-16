@@ -17,7 +17,7 @@
 }
 
 .rodape h4{
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
     font-weight: 500;
     font-size: 16px;
     color: var(--texto);

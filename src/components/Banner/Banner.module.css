@@ -2,6 +2,8 @@
     display: flex;
     margin-top: 2rem;
     border: solid 2px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .capa {
     display: flex;
@@ -11,7 +13,7 @@
 
 .icons{
     display: flex;
-    font-size: 45px;
+    font-size: 2.5rem;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
@@ -34,28 +36,70 @@
     width: 100%;
 }
 
-.item h1{
-    font-size: 42px;
-    text-align: center;
+.containertitulo{
     box-sizing: border-box;
-    padding: 2.5rem;
+    padding: 0;
     width: 40%;
     white-space: nowrap;
     border-radius: 20px;
+    text-align: center;
+}
+
+.item h1{
+    font-size: 2.5rem;
+    line-height: 1rem;
+    width: auto;  
 }
 
 .item h2{
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--texto);
+    line-height: 2.5rem;
 }
 
 .item p{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--texto);
+    line-height: 1.9rem;
 }
 
 .imagem{
     border: 3px solid;
     box-shadow: inset 2px 2px 5px var(--box-shadow);
     width: 100%;
+}
+
+@media screen and ( width < 1200px) { 
+
+    .containertitulo{
+        width: 30%;
+    }
+
+    .item h1{
+        font-size: 1.9rem;
+    }
+
+    .item h2{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .item p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .icons{
+        display: none;
+    }
+    
+}
+
+
+@media screen and ( width < 594px) { 
+
+    .container{
+        display: none;
+    }
+    
 }

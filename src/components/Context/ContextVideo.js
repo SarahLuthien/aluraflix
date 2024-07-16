@@ -10,7 +10,6 @@ export const VideosProvider = ({ children }) => {
         fetch("https://json-server-vercel-git-main-sara-roberta-pires-s-projects.vercel.app/videos")
         .then(resposta => resposta.json())
         .then(dados => {
-            console.log(dados)
             setVideos(dados.videos || []);
             setCategorias(dados.categorias || [])
         })

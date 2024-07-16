@@ -52,11 +52,11 @@ function Banner() {
                 </div>
 
                 <div className={styles.item}>
-                    <div>
-                        <h1 style={{ backgroundColor: currentItem.cor }} >{currentItem.categoria}</h1>
+                    <div className={styles.containertitulo} style={{ backgroundColor: currentItem.cor }}>
+                        <h1>{currentItem.categoria}</h1>
+                    </div>
                         <h2>{currentItem.titulo}</h2>
                         <p>{currentItem.descricao}</p>
-                    </div>
                     <div className={styles.miniBanner} style={{ color: currentItem.cor }}>
                         <Link to={`/${currentItem.id}`} style={{ color: currentItem.cor }} >
                         <img className={styles.imagem} alt={currentItem.titulo} src={currentItem.capa} ></img>
