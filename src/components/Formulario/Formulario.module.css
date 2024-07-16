@@ -84,10 +84,14 @@
 
 @media screen and ( width < 600px) { 
 
+    .formulario {
+        padding: 1rem;
+    }
+
     .boxtexto h3{
         font-size: 28px;
         
-    }
+    }   
     
 }
 

@@ -46,7 +46,7 @@
 @media screen and ( width < 670px) { 
 
     .container {
-        width: 300px;
+        width: 270px;
         border: none;
         padding: 0;
     }
@@ -58,7 +58,7 @@
 
         .container h2{
             font-size: 18px;
-            line-height: 20px;
+            line-height: 28px;
         }
       
 }
