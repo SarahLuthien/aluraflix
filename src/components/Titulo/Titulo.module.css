@@ -8,7 +8,7 @@
     height: 156px;
     border: solid 2px var(--preto);
     border-radius: 10px;
-    box-sizing: border-box;
+    flex-wrap: nowrap;
     
 }
 
@@ -46,8 +46,9 @@
 @media screen and ( width < 670px) { 
 
     .container {
+        width: 300px;
         border: none;
-        padding: 0;      
+        padding: 0;
     }
 
         .container h1{
@@ -57,7 +58,7 @@
 
         .container h2{
             font-size: 18px;
+            line-height: 20px;
         }
-    
-    
+      
 }

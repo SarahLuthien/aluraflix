@@ -67,3 +67,16 @@
     
 }
 
+@media screen and ( width < 545px) { 
+
+    .container input{
+        width: 306px;
+    }
+    
+    .container textarea{
+        width: 306px;
+    }
+    
+}
+
+

@@ -52,11 +52,6 @@
 }
 
 
-@media screen and ( width < 1409px) { 
-
-        
-}
-
 @media screen and ( width < 1395px) { 
 
 .boxtexto h3::before,
@@ -89,7 +84,6 @@
 
 @media screen and ( width < 600px) { 
 
-  
     .boxtexto h3{
         font-size: 28px;
         
