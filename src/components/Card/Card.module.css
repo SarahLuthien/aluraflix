@@ -6,12 +6,17 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px; 
-    border: 2px solid;   
+    border: 2px solid;  
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+     
 }
 
 .capa {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
+    line-height: 2px;
+    margin-bottom: -0.3rem;
 }
 
 
@@ -21,12 +26,13 @@
     flex-direction: column;
     height: 90px;
     cursor: pointer;
-    border: 2px solid; 
+    border-top: 2px solid; 
 } 
 
-h4{
+.card h4{
     font-family: var(--fonte-primaria);
     color: var(--branco);
+    text-decoration: none;
     font-size: 16px;
     font-weight: 700;
     line-height: 4px;

@@ -1,10 +1,15 @@
 .formulario{
-    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
 }
 
 .formulario form{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 2rem;
+    box-sizing: border-box;
 }
 
 .campo{
@@ -15,12 +20,13 @@
     margin-top: 2rem;
 }
 
+
 .boxtexto h3{
     font-family: var(--fonte-secundaria);
     font-weight: 500;
     font-size: 36px;
-    text-align: center;
     margin: auto 0;
+    align-items: center;
     color: var(--texto);
     line-height: 42px;
     position: relative;
@@ -30,9 +36,9 @@
 .boxtexto h3::after {
     content: "";
     position: absolute;
-    border-bottom: 2px solid var(--box-shadow);
-    border-top: 2px solid var(--box-shadow);
-    width: 1200px;
+    border-bottom: 2px solid var( --darkgrey);
+    border-top: 2px solid var( --darkgrey);
+    width: 35em;
     bottom: 0;
     top: 0; 
     left: 0;
@@ -44,4 +50,51 @@
     display: flex;
     gap: 2rem;   
 }
+
+
+@media screen and ( width < 1409px) { 
+
+        
+}
+
+@media screen and ( width < 1395px) { 
+
+.boxtexto h3::before,
+.boxtexto h3::after {
+    width: 31em;
+    
+}
+    
+}
+
+@media screen and ( width < 1343px) { 
+
+    .boxtexto h3::before,
+    .boxtexto h3::after {
+        width: 24em;
+        
+    }
+    
+}
+
+@media screen and ( width < 1020px) { 
+
+    .boxtexto h3::before,
+    .boxtexto h3::after {
+        width: 11.5em;
+        
+    }
+    
+}
+
+@media screen and ( width < 600px) { 
+
+  
+    .boxtexto h3{
+        font-size: 28px;
+        
+    }
+    
+}
+
 

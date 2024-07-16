@@ -48,6 +48,7 @@
 .item h1{
     font-size: 2.5rem;
     line-height: 1rem;
+    color: var(--texto);
     width: auto;  
 }
 

@@ -16,15 +16,54 @@
     font-size: 20px;
     font-family: var(--fonte-secundaria);
     margin: 0 auto;
-    width: 573px;
-    height: 62px;
+    width: 576px;
+    height: 52px;
     border-radius: 10px;
     border: solid 3px var(--darkgrey);
     background-color: var(--cor-background-color);
-    box-sizing: border-box;
 }
 
-.container ::placeholder{
+.container::placeholder{
     color: var( --textoform);
     font-size: 18px;
 }
+
+.container textarea{
+    display: flex;
+    color: var( --textoform);
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    resize: none;
+    width: 596px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid 3px var(--darkgrey);
+    background-color: var(--cor-background-color);
+}
+
+
+@media screen and ( width < 1409px) { 
+
+.container input{
+    width: 546px;
+}
+
+}
+
+@media screen and ( width < 1343px) { 
+
+    .container input{
+        width: 406px;
+    }
+    
+}
+
+@media screen and ( width < 791px) { 
+
+    .container textarea{
+        width: 406px;
+    }
+    
+}
+

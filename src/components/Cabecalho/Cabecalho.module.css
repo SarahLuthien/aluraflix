@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.7em ;
+    padding: 1.7em;
     flex-direction: row;
     background-color: var(--cor-background-header-footer);
     box-shadow: 0 4px 8px 2px var(--box-shadow);
@@ -16,15 +16,13 @@
 
 
 .logo {
-    display: flex;
+    display: block;
     width: 168px;
 }
-
 
 .home{
     display: none;
 }
-
 
 @media screen and ( width < 764px) { 
 
@@ -32,47 +30,21 @@
         display: none;
     }
 
-    .container {
+    .cabecalho {
        display: flex;
-       padding-right: 8rem;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .containerhome{
+        display: flex;  
+    }
+
+    .home{
+        display: block;
+        width: 40px;
     }
      
 }
 
-@media screen and ( width < 680px ){
-
-    .container{
-        padding-right: 6.5rem;
-    }
-}
-
-@media screen and ( width < 600px) { 
-
-    .container {
-        padding-right: 6rem;
-    }  
-}
-
-@media screen and ( width < 600px) { 
-
-    .container {
-        padding-right: 4.5rem;
-    }
-    
-}
-
-@media screen and ( width < 518px) { 
-
-    .container {
-        padding-left: 3.5rem;
-    }  
-}
-
-@media screen and ( width < 470px) { 
-
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }  
-}
 

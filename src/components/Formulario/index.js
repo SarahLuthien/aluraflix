@@ -1,4 +1,4 @@
-import CampoTextoForm from "components/CampoTextoForm";
+import CampoTextoForm, { TextArea } from "components/CampoTextoForm";
 import styles from "./Formulario.module.css";
 import ListaSuspensa from "components/ListaSuspensa";
 import { BotaoFormulario } from "components/Botao";
@@ -90,7 +90,7 @@ function Formulario({ aoCadastrar, categorias }) {
             aoAlterado={(valor) => setForm((setForm) => ({...setForm, link: valor }))}
             obrigatorio={true}
           />
-          <CampoTextoForm
+          <TextArea 
             label="Descrição"
             placeholder="Sobre o que é esse vídeo?"
             valor={form.descricao}

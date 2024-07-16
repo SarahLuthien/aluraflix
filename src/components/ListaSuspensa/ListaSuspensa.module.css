@@ -23,3 +23,18 @@
     font-size: 20px;
     box-sizing: border-box;
 }
+
+@media screen and ( width < 1409px) { 
+  
+    .container select{
+        width: 546px;
+    }
+    }
+    
+    @media screen and ( width < 1343px) { 
+
+        .container select{
+            width: 406px;
+        }
+        
+    }

@@ -11,9 +11,11 @@ function Cabecalho() {
         <img className={styles.logo} src={logo} alt="logo do Aluraflix" />
       </Link>
       <nav className={styles.container}>
+        <div className={styles.containerhome}>
         <Botao  url="/">
           Home
         </Botao>
+        </div>
         <Botao  url="/NovoVideo">
           Novo Video
         </Botao>
