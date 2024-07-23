@@ -1,4 +1,4 @@
-<img src="https://i.postimg.cc/NGmBQTwT/icon-play.png"><h1>Aluraflix</h1>
+<h1><img src="https://i.postimg.cc/NGmBQTwT/icon-play.png"> Aluraflix</h1>
 
 <h2>SOBRE: </h2>
 <p>Este projeto foi desenvolvido através de uma challenge pré requisito para a formacação Front End, do curso ONE-Oracle Next Education 2024 Turma: T6-ONE</p>
