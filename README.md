@@ -14,8 +14,6 @@
 
 <h2>:rocket: Tecnologias utilizadas:</h2>
 <div align="left">
-  <img src="https://i.postimg.cc/Wpgt5zdM/css-icon.png">
-  <img src="https://i.postimg.cc/J0Dvh2t9/js-icon.png">
   <img src="https://i.postimg.cc/yYwM5sWc/211904-social-github-icon.png">
   <img src="https://i.postimg.cc/v852Bfmg/7564187-figma-logo-brand-icon.png">
   <img src="https://i.postimg.cc/85rV0cN8/node-icon.png">
